@@ -17,7 +17,7 @@ class Incremental {
 	}
 
 	public String toString() { 
-		return "Incremental " + numero; 
+		return "Incremental: " + numero; 
 	} 
 } 
 
