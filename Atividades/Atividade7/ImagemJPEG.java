@@ -4,14 +4,13 @@ public class ImagemJPEG implements Imagem {
 
 	
 	public void cImagem() {
-		// TODO Auto-generated method stub
+		System.out.println("Carregando imagem JPEG...");
 
 	}
 
 	
 	public void dImagem() {
-		// TODO Auto-generated method stub
-
+		System.out.println("Desenhando imagem JPEG...");
 	}
 
 }

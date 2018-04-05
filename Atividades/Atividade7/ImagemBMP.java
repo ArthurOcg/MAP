@@ -3,13 +3,12 @@ package MAP.Atividades.Atividade7;
 public class ImagemBMP implements Imagem {
 
 	public void cImagem() {
-		// TODO Auto-generated method stub
+		System.out.println("Carregando imagem BMP...");
 
 	}
 
+	
 	public void dImagem() {
-		// TODO Auto-generated method stub
-
+		System.out.println("Desenhando imagem BMP...");
 	}
-
 }
