@@ -18,15 +18,15 @@ public class Funcionaiorio {
 			this.nivel = nivel;
 			switch (cargo) {
 			case DESENVOLVEDOR:
-				estrategiaDeGratificacao = new GratificacaoDesenvolvedor();
+				//estrategiaDeGratificacao = new GratificacaoDesenvolvedor();
 				cargo = DESENVOLVEDOR;
 				break;
 			case DBA:
-				estrategiaDeGratificacao = new GratificacaoDesenvolvedor();
+				//estrategiaDeGratificacao = new GratificacaoDesenvolvedor();
 				cargo = DBA;
 				break;
 			case LIDER:
-				estrategiaDeGratificacao = new GratificacaoLider();
+				//estrategiaDeGratificacao = new GratificacaoLider();
 				cargo = DBA;
 				break;
 			case GERENTE:
@@ -34,7 +34,7 @@ public class Funcionaiorio {
 				cargo = GERENTE;
 				break;
 			default:
-				throw new RuntimeException("Cargo n„o encontrado :/");
+				throw new RuntimeException("Cargo n√£o encontrado :/");
 			}
 		}
 
