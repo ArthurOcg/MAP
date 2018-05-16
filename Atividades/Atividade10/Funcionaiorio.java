@@ -1,4 +1,3 @@
-package Atividades.Atividade10;
 
 public class Funcionaiorio {
 
